@@ -12,7 +12,7 @@ const deleteColumn = (dataset, key) => {
 const datasetSize = (dataset) => {
     rows = Object.keys(dataset[0]).length;
     columns = dataset.length;
-    return "Total rows: " + rows + " and " + "Total  columns: " + columns;
+    return "Total rows : " + rows + " and " + "Total  columns: " + columns;
 }
 
 
@@ -25,9 +25,9 @@ const dataSummary = (dataset) => {
         console.log(i + " : " + typeof (dataset[0][i]));
     }
     columns = Object.keys(dataset[0]).length;
-    rows = dataset.length;
-    console.log("Total rows: " + rows);
-    console.log("Total columns: " + columns);
+    rows = dataset.length ;
+    console.log("Total rows : " + rows);
+    console.log("Total columns : " + columns);
 }
 
 
